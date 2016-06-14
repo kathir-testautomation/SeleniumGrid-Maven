@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestN Grid" duration-ms="25291" started-at="2016-06-10T14:52:38Z" finished-at="2016-06-10T14:53:04Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="19255" started-at="2016-06-10T14:52:38Z" finished-at="2016-06-10T14:52:58Z">
+      <class name="com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest">
+        <test-method status="PASS" signature="setPrerequisite(java.lang.String)[pri:0, instance:com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest@3cbbc1e0]" name="setPrerequisite" is-config="true" duration-ms="2973" started-at="2016-06-10T20:22:38Z" finished-at="2016-06-10T20:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPrerequisite -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest@3cbbc1e0]" name="googleSearch" duration-ms="15227" started-at="2016-06-10T20:22:41Z" finished-at="2016-06-10T20:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="1042" started-at="2016-06-10T20:22:57Z" finished-at="2016-06-10T20:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="25291" started-at="2016-06-10T14:52:38Z" finished-at="2016-06-10T14:53:04Z">
+      <class name="com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest">
+        <test-method status="PASS" signature="setPrerequisite(java.lang.String)[pri:0, instance:com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest@26ba2a48]" name="setPrerequisite" is-config="true" duration-ms="9525" started-at="2016-06-10T20:22:38Z" finished-at="2016-06-10T20:22:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPrerequisite -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest@26ba2a48]" name="googleSearch" duration-ms="15096" started-at="2016-06-10T20:22:48Z" finished-at="2016-06-10T20:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="668" started-at="2016-06-10T20:23:03Z" finished-at="2016-06-10T20:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngparallel.TestNGParallelGrid.TestNGParameterizedGridTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestN Grid -->
+</testng-results>

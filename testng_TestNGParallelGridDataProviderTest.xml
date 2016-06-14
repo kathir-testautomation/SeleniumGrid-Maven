@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestN Grid" verbose="2" parallel="tests" thread-count="5">
+  <test name="Google Search Grid">
+    <classes>
+      <class name="com.testngparallel.TestNGParallelGrid.TestNGParallelGridDataProviderTest"/>
+    </classes>
+  </test> <!-- Google Search -->
+</suite> <!-- TestN Grid -->
