@@ -13,6 +13,15 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <!-- 
+  <repositories>
+    <repository>
+      <id>Maven additional repository</id>
+      <url>https://maven-repository.com/</url>
+    </repository>
+ </repositories>
+ -->
 
   <dependencies>
     <dependency>
@@ -27,6 +36,7 @@
         <artifactId>selenium-java</artifactId>
         <version>2.53.0</version>
     </dependency> 
+    
      <!-- 
        Dependency to download selenium browser drivers like Chrome, IE driver etc.
        https://github.com/bonigarcia/webdrivermanager 
